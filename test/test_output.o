@@ -1,0 +1,20 @@
+time =                    0
+	memory[0] =     1
+	memory[1] =     2
+	memory[2] =     1
+	memory[3] =     2
+	memory[4] =     1
+	memory[5] =     2
+	memory[6] =     1
+	memory[7] =     2
+
+time =                   35
+	memory[0] =     1
+	memory[1] =     2
+	memory[2] =     0
+	memory[3] =     2
+	memory[4] =     1
+	memory[5] =     2
+	memory[6] =     1
+	memory[7] =     2
+

@@ -1,7 +1,7 @@
 Vivado Simulator v2023.2
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb xil_defaultlib.glbl -log elaborate.log 
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_Risc_16_bit_behav xil_defaultlib.test_Risc_16_bit xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
@@ -11,7 +11,14 @@ WARNING: [XSIM 43-4099] "C:/Users/danny/OneDrive/Desktop/FPGA/RSIC-16bit-project
 WARNING: [XSIM 43-4099] "C:/Users/danny/OneDrive/Desktop/FPGA/RSIC-16bit-project/RSIC-16bit-project.srcs/sources_1/new/ALU.v" Line 23. Module ALU doesn't have a timescale but at least one module in design has a timescale.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Instruction_Memory
+Compiling module xil_defaultlib.GPR
+Compiling module xil_defaultlib.alu_control
 Compiling module xil_defaultlib.ALU
-Compiling module xil_defaultlib.ALU_tb
+Compiling module xil_defaultlib.Data_Memory
+Compiling module xil_defaultlib.Datapath_Unit
+Compiling module xil_defaultlib.Control_Unit
+Compiling module xil_defaultlib.Risc_16_bit
+Compiling module xil_defaultlib.test_Risc_16_bit
 Compiling module xil_defaultlib.glbl
-Built simulation snapshot ALU_tb_behav
+Built simulation snapshot test_Risc_16_bit_behav

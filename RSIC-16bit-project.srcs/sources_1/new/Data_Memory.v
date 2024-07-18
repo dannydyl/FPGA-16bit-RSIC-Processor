@@ -36,7 +36,7 @@ module Data_Memory(
     
     initial
     begin
-        $readmemb("filepath", memory);
+        $readmemb("C:/Users/danny/OneDrive/Desktop/FPGA/RSIC-16bit-project/test/test_data_memory.data", memory);
         
         f = $fopen(`filename);
         $fmonitor(f, "time = %d\n", $time,

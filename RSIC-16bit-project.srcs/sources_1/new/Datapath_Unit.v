@@ -36,7 +36,7 @@ module Datapath_Unit(
     wire [15:0] reg_read_data_1;
     wire [2:0] reg_read_addr_2;
     wire [15:0] reg_read_data_2;
-    wire [15:0] ext_im, read_data2;
+    wire [15:0] ext_im, read_data2; // ext_im is extended immediate value, (I-type)
     wire [2:0] ALU_Control;
     wire [15:0] ALU_out;
     wire zero_flag;
@@ -129,10 +129,10 @@ module Datapath_Unit(
    Data_Memory dm
    (
     .clk(clk),
-    .mem_acess_addr(ALU_out),
+    .mem_access_addr(ALU_out),
     .mem_write_data(reg_read_data_2),
     .mem_write_en(mem_write),
-    .mem_read(mem_read),
+    .mem_read_en(mem_read),
     .mem_read_data(mem_read_data)
     );
     
