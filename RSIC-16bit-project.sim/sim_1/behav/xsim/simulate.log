@@ -1,1 +1,11 @@
 Time resolution is 1 ps
+Time =                    0, Control = 000, A =     0, B =     0, Result =     0, Zero = 1
+Time =                10000, Control = 000, A =    10, B =     5, Result =    15, Zero = 0
+Time =                20000, Control = 001, A =    20, B =    15, Result =     5, Zero = 0
+Time =                30000, Control = 010, A =    25, B =    15, Result = 65510, Zero = 0
+Time =                40000, Control = 011, A =    25, B =     3, Result =   200, Zero = 0
+Time =                50000, Control = 100, A =    25, B =     2, Result =     6, Zero = 0
+Time =                60000, Control = 101, A = 43690, B = 21845, Result =     0, Zero = 1
+Time =                70000, Control = 110, A = 65535, B =     0, Result = 65535, Zero = 0
+Time =                80000, Control = 111, A =     2, B =     3, Result =     1, Zero = 0
+$stop called at time : 100 ns : File "C:/Users/danny/OneDrive/Desktop/FPGA/RSIC-16bit-project/RSIC-16bit-project.srcs/sim_1/new/ALU_tb.v" Line 56
