@@ -48,9 +48,3 @@ The project is organized into 8 key modules, each corresponding to a component o
 The processor employs a simple pipelining strategy to improve instruction throughput and efficiency:
 - **Stages**: Divided into 5 classic stages such as Instruction Fetch (IF), Instruction Decode (ID), Execute (EX), Memory Access (MEM), and Write Back (WB).
 - **Functionality**: Each stage is designed to operate in parallel with others, reducing clock cycles per instruction and boosting overall performance. This also serves as an excellent practical example of pipelining in modern CPUs.
-
-## License
-This project is distributed under the MIT License, which allows modification and distribution of the project with proper attribution.
-
-## Contact
-For queries, suggestions, or contributions, please feel free to open an issue in this repository.
